@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index.html</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<style type="text/css">	
+		@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Noto Sans KR', sans-serif;
+		}
+		a {
+			text-decoration: none;
+		}
+
+		.header_menu {
+			width: 100%;
+			background-color: #6AAFE6;
+		}
+
+		.header_logo {
+			width: 100%;
+		}
+
+		.header_nav {
+			width: 100%;
+			background-color: #D4DFE6;
+			height: 65px;
+		}
+
+		.inner_header {
+			max-width: 1440px;
+			margin: 0 auto;
+		}
+
+		.header_sns {
+			height: 35px;
+			display: inline-block;
+		}
+
+		.header_sns > a > i {
+			color: white;
+			font-size: 1.3em;
+			padding: 0.2px;
+			line-height: 35px;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			
+		}
+		.header_member {
+			float: right;
+		}
+		.header_member > ul > li {
+			float: left;
+			
+		}
+		.header_member ul > li > a {
+			color: white;
+			text-decoration: none;
+			line-height: 35px;
+			font-size: 1.2em;
+			padding: 0px 20px;
+			height: 35px;
+			display: inline-block;
+		}
+		.header_member ul > li > a:hover {
+			background-color: #eb90d9;
+			list-style-type: malayalam;
+
+		}
+		.nav_wrap {
+			width: 80%;
+			margin: auto;
+			box-sizing: border-box;
+		}
+		.nav_wrap > ul > li {
+			float: left;
+			width: 90px; 
+			height: 55px;
+			box-sizing: border-box;
+
+		}
+		.nav_wrap > ul > li > a {
+			float: left;
+		}
+		.nav_wrap > ul > li a {
+			
+			line-height: 65px;
+			padding: 20px 5px;
+			font-weight: bold;
+			box-sizing: border-box;
+
+
+		}
+		.nav_wrap > ul > li > a:hover {
+			background-color: #3C70B4;
+		}
+		.small_nav {
+			background: skyblue;
+			text-align: center;
+			display: none;
+			position: absolute;
+			z-index: 50;
+			
+		}
+		.small_nav > ul > li:hover {
+			background-color: #3C70B4;
+		}
+		.nav_wrap > ul > li:hover .small_nav {
+			display: block;
+		}
+		#all_menu_wrap {
+			max-width: 1500px;
+			margin: 0 auto;
+			background-color: #bbb;
+		}
+		#all_froduct {
+			width: 1500px;
+			margin: 0 auto;
+			padding: 10px 0px;
+			background-color: #AFE4E4;
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold;
+			color: #264B73;
+		}
+		#index_list_wrap {
+			max-width: 1500px;
+			margin: 0 auto;
+			
+		} 
+		#list_article > ul > li {
+			display: inline-block;
+		}
+		#list_article {
+			padding-top: 30px;
+			width: 1500px
+			background-color: skyblue;
+		}
+		#list_article > ul > li{
+			position: relative;
+		} 
+		#list_article > ul > li > a > img > span{
+			position: absolute;
+
+		}
+		#bajirack {
+			position: absolute;
+		}
+
+		#article {
+			display: inline;
+			max-width: 160px;
+			height: 180px;
+		}
+	
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="header_menu">
+			<div class="inner_header inner_header_menu">
+				<div class="header_sns">
+					<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-facebook-square"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-google"></i></a>
+				</div>
+
+				<div class="header_member">
+					<ul>
+						<li><a href="#">로그인</a></li>
+						<li><a href="#">회원가입</a></li>
+						<li><a href="#">고객센터</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header_logo">
+			<div class="inner_header">
+				<a href="file:///D:/sublime_workspace/mul_project/index.html" target="blank"><img src="images/free_horizontal_on_white_by_logaster.png" alt="로고이미지"></a>
+			</div>
+		</div>	
+		<div class="header_nav">
+			<div class="nav_wrap">
+				<ul>
+					<li>
+						<a href="#">신상품</a></li>
+					<li><a href="#">best상품</a></li>
+					<li><a href="#">생선류</a>
+						<div class="small_nav">
+							<ul>
+								<li><a href="#">장어</a></li>
+								<li><a href="#">광어</a></li>
+								<li><a href="#">순살고등어</a></li>
+								<li><a href="#">돌돔</a></li>
+								<li><a href="#">연어</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">어패류</a>
+						<div class="small_nav">
+							<ul>
+								<li><a href="#">홍가리비</a></li>
+								<li><a href="#">바지락</a></li>
+								<li><a href="#">새꼬막</a></li>
+								<li><a href="#">꽃멍게</a></li>
+								<li><a href="#">삐뚤이소라</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">연체류</a>
+						<div class="small_nav">
+							<ul>
+								<li><a href="">세발낙지</a></li>
+								<li><a href="">뻘낙지</a></li>
+								<li><a href="">문어</a></li>
+								<li><a href="">쭈꾸미</a></li>
+								<li><a href="">오징어</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">건어물</a>
+						<div class="small_nav">
+							<ul>
+								<li><a href="">쥐포</a></li>
+								<li><a href="">황태</a></li>
+								<li><a href="">오징어</a></li>
+								<li><a href="">노가리</a></li>
+								<li><a href="">한치</a></li>
+								<li><a href="">진미채</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">가공식품</a>
+						<div class="small_nav">
+							<ul>
+								<li><a href="">소시지</a></li>
+								<li><a href="">훈제오리</a></li>
+								
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</header>
+	<section>
+		<div id="index_list_wrap">
+			<div id="all_froduct">
+			전체상품
+			</div>
+
+			<div id="list_article">
+				<div class="article bajirack">
+					<a href=""><img src="images/bajirack.jpg"> 바지락</a>
+				</div>
+
+				<!-- <ul>
+					<li><a href="#"><img src="images/bajirack.jpg">
+						<span id="bajirack">바지락</span></a></li>
+						<span>10,000원</span>
+					<li><a href="#"><img src="images/nagji.jpg">
+						<span id="nagji">낙지</span></a></li>
+						<span>11,000원</span>
+					<li><a href="#"><img src="images/sora.jpg">
+						<span id="sora">소라</span></a></li>
+						<span>12,000원</span>
+					<li><a href="#"><img src="images/sunsal.jpg">
+						<span id="sunsal">순살고등어</span></a></li>
+						<span>14,000원</span>
+				</ul> -->
+			</div>
+		</div>
+
+	</section>
+
+
+	<footer>
+		
+	</footer>
+</body>
+</html>

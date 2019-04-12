@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Merriweather|Noto+Sans+KR');
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Noto Sans KR', sans-serif;
+
+		}
+		a {
+			text-decoration: none;
+		}
+		li {
+			list-style: none;
+		}
+		.header, .container, .footer {
+			width: 800px;
+			margin: auto;
+		}
+		.header {
+			padding-top: 20px;
+			display: flex;
+			justify-content: center;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding-top: 30px;
+			margin-bottom: 80px;
+		}
+		.input_wrap {
+			border: 1px solid #58B19F;
+			width: 317px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 10px;
+			margin-bottom: 30px;
+			border-radius: 10px;
+		}
+		.input_id, .input_pw {
+			width: 307px;
+			padding: 10px;
+			margin-left: 10px;
+			outline: none;
+			border: white;
+
+		}
+		.login_join_btn {
+			font-weight: 900;
+		}
+		.login_btn {
+			background: linear-gradient(117.75777152503247deg, rgba(40, 199, 191,1) 24.126490542763158%,rgba(40, 198, 191,1) 24.126490542763158%,rgba(90, 174, 242,1) 87.25354646381578%);
+			padding: 5px 85px;
+			border-radius: 5px;
+			color: white;
+			margin-right: 20px;
+		}
+		.join_btn {
+			background: linear-gradient(117.75777152503247deg, rgba(40, 199, 191,1) 24.126490542763158%,rgba(40, 198, 191,1) 24.126490542763158%,rgba(90, 174, 242,1) 87.25354646381578%);
+			padding: 5px 20px;
+			border-radius: 5px;
+			color: white;
+		}
+		.cbox_find {
+			margin-top: 10px;
+			position: relative;
+			left: -40px;
+		}
+		.cbox {
+			font-size: 12px;
+			display: inline-block;
+			
+		}
+		#cbox {
+			position: relative;
+			top: 3px;
+			color: black;
+		}
+		.member_find {
+			font-size: 12px;
+			display: inline-block;
+			position: relative;
+			right: -80px;
+
+		}
+		.member_find a {
+			color: #333;
+		}
+		.member_find span {
+			opacity: .4;
+		}
+		.footer * {
+			position: relative;
+			left: -4px;
+			font-size: 12px;
+			color: #333;
+		}
+		.footer > ul {
+			text-align: center;
+		}
+		.footer > ul > li {
+			display: inline-block;
+			padding: 0 5px 0 7px;
+			border-left: 1px solid #dadada;
+		}
+		.footer > ul > li:hover {
+			text-decoration: underline;
+		}
+		.footer > ul > li:first-child {
+			border-left: none;
+		}
+		.footer > ul > li:nth-child(2){
+			font-weight: bold;
+		}
+
+
+	</style>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript"></script>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div class="header">
+				<a href="#"><img alt="로고이미지" src="images/free_horizontal_on_white_by_logaster.png"></a>
+			</div>
+		</header>
+		<section>
+			<div class="container">
+				<div class="input_wrap"><form><input type="text" class="input_id" placeholder="아이디"></form></div>
+				<div class="input_wrap"><form><input type="password" class="input_pw" placeholder="비밀번호"></form></div>
+				<div class="login_join_btn">
+					<a href="#" class="login_btn">로그인</a>
+					<a href="#" class="join_btn">회원가입</a>
+				</div>
+				<div class="cbox_find">
+					<div class="cbox">
+						<input type="checkbox" id="cbox"><label for="cbox">로그인 상태유지</label>
+					</div>
+					<div class="member_find">
+						<a href="#">아이디 찾기 &nbsp;&nbsp;</a>
+						<span>|</span>
+						<a href="#">&nbsp;&nbsp;비밀번호 찾기</a>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		<footer>
+			<div class="footer">
+				<ul>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">책임의 한계와 법적고지</a></li>
+					<li><a href="#">회원정보 고객센터</a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
